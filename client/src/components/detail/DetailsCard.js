@@ -7,10 +7,8 @@ import CarItems from '../listItems/CarItems'
 const getStyles = () => ({
     container: {
         display: 'flex',
-        justifyContent: 'center',
         flexDirection: 'column',
-        width: '70%',
-        textAlign: 'center'
+        width: '65%',
     }
 })
 

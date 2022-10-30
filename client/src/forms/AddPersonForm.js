@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useMutation } from '@apollo/client'
 import { Form, Input, Button } from 'antd'
 import { v4 as uuidv4 } from 'uuid'
-import { ADD_PERSON, GET_PEOPLE } from '../../queries'
+import { ADD_PERSON, GET_PEOPLE } from '../queries'
 
 const AddPersonForm = () => {
     const [id] = useState(uuidv4())

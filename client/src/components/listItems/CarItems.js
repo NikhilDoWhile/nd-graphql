@@ -1,6 +1,6 @@
 import { Card } from 'antd'
 import { EditOutlined } from '@ant-design/icons'
-import UpdateCarForm from '../forms/UpdateCarForm'
+import UpdateCarForm from '../../forms/UpdateCarForm'
 import RemoveButton from '../button/RemoveButton'
 import { useState } from 'react'
 import { formatCurrency } from '../../formatCurrency'

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useMutation, useQuery } from '@apollo/client'
 import { Form, Input, Button, Select } from 'antd'
-import { UPDATE_CAR, GET_PEOPLE, GET_CARS } from '../../queries'
+import { UPDATE_CAR, GET_PEOPLE, GET_CARS } from '../queries'
 
 const { Option } = Select
 

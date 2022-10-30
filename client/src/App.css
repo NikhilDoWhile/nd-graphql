@@ -1,75 +1,8 @@
 .Container {
   align-items: center;
-  border: 2px solid #00000080;
+  border: 2px solid #544ca280;
   display: flex;
   flex-direction: column;
-  margin: 100px auto;
-  padding: 40px;
-  width: 70%;
-  background-color: aliceblue;
-}
-
-.Container #add-person-form .ant-form-item,
-#add-car-form .ant-form-item {
-  margin: 8px 8px 44px 8px;
-}
-
-.Container .ant-card-type-inner .ant-card-body {
-  display: flex;
-  flex-direction: column;
-  row-gap: 8px;
-}
-
-.Container .ant-list-item .ant-card-body {
-  display: flex;
-  flex-direction: column;
-  row-gap: 8px;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.Container #add-car-form .ant-select {
-  margin: 8px 0px 0 8px;
-}
-
-.Container .ant-select-arrow {
-  top: 25%;
-}
-
-.Container #update-car-form .ant-select-arrow {
-  top: 50%;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 2rem auto;
+  background-color: rgb(200, 197, 197);
 }

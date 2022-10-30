@@ -13,10 +13,6 @@ import DetailsCard from '../detail/DetailsCard'
 const getStyles = () => ({
     personCard: {
         width: '700px'
-    },
-    learnMore: {
-        textAlign: 'right',
-        marginTop: '24px'
     }
 })
 
@@ -68,7 +64,7 @@ const PersonItems = props => {
                 <Link
                     to={{ pathname: `/${id}` }}
                     element={<DetailsCard />}>
-                    <div style={styles.learnMore}>Learn More</div></Link>
+                    <div>Learn More</div></Link>
             </Card>
         </div>
     )

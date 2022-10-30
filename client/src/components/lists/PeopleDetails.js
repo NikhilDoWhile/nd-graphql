@@ -2,7 +2,7 @@ import { useQuery } from '@apollo/client'
 import { GET_PEOPLE } from '../../queries'
 import { List } from 'antd'
 import PersonItems from '../listItems/PersonItems'
-import AddPersonForm from '../forms/AddPersonForm'
+import AddPersonForm from '../../forms/AddPersonForm'
 import AddCarForm from '../../forms/AddCarForm'
 import HeaderSection from '../../layout/HeaderSection'
 
