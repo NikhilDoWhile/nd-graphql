@@ -8,7 +8,7 @@ In both folder, server and client run:
 Then in both server and client run this command in parallel:
 
 
-```npm start``
+```npm start```
 
 Open port:
 http://localhost:3000/
